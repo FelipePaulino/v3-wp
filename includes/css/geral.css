@@ -1,0 +1,2000 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  overflow-x: hidden;
+  font-family: 'ralewayregular';
+  background: #fff; }
+
+a:hover {
+  text-decoration: none; }
+
+.container {
+  position: relative; }
+
+.quebra {
+  border: 0 none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  visibility: hidden; }
+
+.carrosel {
+  margin-top: -38px; }
+
+.banner {
+  height: 1024px;
+  padding-top: 88px; }
+
+.banner-interna {
+  height: 675px;
+  padding-top: 60px;
+  margin-bottom: 285px; }
+  .banner-interna .container {
+    padding: 0 5%; }
+
+.banner1 {
+  background: url("../../images/banner-cabeamento-estruturado.jpg") top center repeat; }
+
+.banner2 {
+  background: url("../../images/banner-fibra-optica.jpg") top center repeat; }
+
+.banner3 {
+  background: url("../../images/banner-sistemas-de-seguranca.jpg") top center repeat; }
+
+.banner-quem-somos {
+  background: url("../../images/banner-quem-somos.jpg") top center repeat; }
+
+.banner-interna-cabeamento {
+  background: url("../../images/banner-interna-cabeamento.jpg") top center repeat; }
+
+.banner-interna-cftv {
+  background: url("../../images/banner-interna-cftv.jpg") top center repeat; }
+
+.banner-interna-fibra-optica {
+  background: url("../../images/banner-interna-fibra-optica.jpg") top center repeat; }
+
+.banner-interna-rede-eletrica {
+  background: url("../../images/banner-interna-rede-eletrica.jpg") top center repeat; }
+
+.banner-interna-produtos {
+  background: url("../../images/banner-interna-produtos.jpg") top center repeat;
+  height: 634px; }
+
+.banner-interna-gerenciamento-projetos {
+  background: url("../../images/banner-interna-gerenciamento-projetos.jpg") top center repeat; }
+
+.banner-interna-gerenciamento-redes {
+  background: url("../../images/banner-interna-gerenciamento-redes.jpg") top center repeat; }
+
+.slick-next {
+  display: block;
+  width: 38px;
+  height: 38px;
+  background: url(../../images/sprytes.png) no-repeat;
+  background-position:-75px -304px ;
+  text-indent: -9999px;
+  border: 0;
+  position: relative;
+  top: 42px;
+  z-index: 999;
+  margin: -174px auto 0;
+  left: 86px; }
+
+.slick-prev {
+  display: block;
+  width: 38px;
+  height: 38px;
+  background: url(../../images/sprytes.png) no-repeat;
+  background-position:-28px -304px ;
+  text-indent: -9999px;
+  border: 0;
+  position: relative;
+  top: 930px;
+  z-index: 999;
+  margin: 0 auto;
+  left: 40px; }
+
+.menu-completo {
+  position: absolute;
+  z-index: 999; }
+  .menu-completo .container {
+    padding: 0 5%; }
+
+.contatos {
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+  border-bottom: 1px solid #000; }
+  .contatos .telefones-topo {
+    float: left; }
+    .contatos .telefones-topo p {
+      float: left;
+      font-size: 14px;
+      color: #6d6e71;
+      margin-right: 10px; }
+      .contatos .telefones-topo p span {
+        color: #fff;
+        font-family: 'ralewaybold'; }
+  .contatos .sociais {
+    float: right;
+    font-size: 16px;
+    position: relative;
+    z-index: 999; }
+    .contatos .sociais .fa:hover {
+      color: #fff; }
+  .contatos .fa {
+    color: #6d6e71;
+    margin-right: 3px; }
+
+.menu-links {
+  float: left; }
+  .menu-links li {
+    float: left;
+    list-style: none;
+    height: 65px; }
+  .menu-links a {
+    float: left;
+    font-family: 'ralewaybold';
+    color: #fff;
+    margin-right: 28px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 50px; }
+  .menu-links a.sem-margem {
+    margin-right: 0; }
+  .menu-links img {
+    margin: -60px 100px 0; }
+  .menu-links .drop {
+    width: 216px;
+    height: 201px;
+    background: #000;
+    opacity: 0.8;
+    border: 2px solid #c4161c;
+    margin-top: 50px;
+    margin-left: -73px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0; }
+    .menu-links .drop li {
+      float: none;
+      height: auto; }
+    .menu-links .drop a {
+      font-size: 14px;
+      margin: -1px 10px 9px;
+      text-transform: capitalize;
+      padding-bottom: 8px;
+      border-bottom: 2px #373737 solid;
+      width: 90%; }
+      .menu-links .drop a:hover {
+        color: #c4161c; }
+    .menu-links .drop .drop-seta {
+margin-left: 94px;
+    margin-top: -43px;
+    width: 32px;
+    height: 16px;
+    object-fit: none;
+    object-position: -50px -266px;}
+
+.menu-links li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.2s ease; }
+
+.banner h2 {
+  margin-top: 20%;
+  color: #fff;
+  font-family: 'ralewaybold';
+  width: 36%;
+  font-size: 60px; }
+.banner p {
+  color: #fff;
+  font-size: 24px;
+  width: 36%;
+  margin: 25px 0 60px; }
+.banner a {
+  background: #c4161c;
+  color: #fff;
+  width: 160px;
+  height: 40px;
+  padding: 8px 17px;
+  float: left;
+  font-size: 18px;
+  font-family: 'ralewaybold';
+  text-align: center;
+  text-transform: uppercase; }
+  .banner a:hover {
+    background: #000;
+    color: #fff; }
+
+.banner-interna h1 {
+  margin-top: 8%;
+  color: #fff;
+  font-family: 'ralewaybold';
+  width: 40%;
+  font-size: 60px; }
+.banner-interna p {
+  color: #fff;
+  font-size: 24px;
+  width: 53%;
+  margin: 25px 0 60px; }
+.banner-interna p.texto100 {
+  width: 100%; }
+.banner-interna a {
+  background: #c4161c;
+  color: #fff;
+  width: 160px;
+  height: 40px;
+  padding: 5px 20px;
+  float: left;
+  font-size: 22px;
+  font-family: 'ralewaybold';
+  text-align: center; }
+
+.border-menu img {
+  display: none;
+  position: absolute; }
+
+.menu-infinito {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 999; }
+
+.menu-fixed {
+  position: fixed;
+  height: 69px;
+  background: #0a0a0a;
+  z-index: 1002;
+  transition: all 0.5s ease; }
+  .menu-fixed .menu-completo {
+    width: 100%; }
+
+.menu-completo .contatos-fixo {
+  background: #989898;
+  margin-top: 40px;
+  margin-bottom: 0;
+  border: 0;
+  height: 29px;
+  padding-top: 2px;
+  border-top: #818181 4px solid; }
+  .menu-completo .contatos-fixo p {
+    color: #fff; }
+  .menu-completo .contatos-fixo .fa {
+    color: #fff; }
+
+body .menu-fixo {
+  margin-top: -80px;
+  float: right; }
+  body .menu-fixo .drop a {
+    margin: 11px 10px 0;
+    padding-bottom: 5px; }
+  body .menu-fixo .drop .drop-seta {
+    margin-top: -16px; }
+  body .menu-fixo img.logo {
+    left: -82%;
+    top: 0; }
+  body .menu-fixo img {
+    margin: 17px 0 0;
+    position: absolute;
+    left: 0; }
+  body .menu-fixo a.menu-servicos {
+    margin-right: 0; }
+
+.border-menu-fixo {
+  border-top: #818181 4px solid;
+  transition: all 0.5s ease;
+  height: 15px;
+  width: 100%;
+  background: #989898;
+  position: absolute;
+  bottom: 0; }
+  .border-menu-fixo img {
+    display: block; }
+  .border-menu-fixo .img-left {
+    left: -3px;
+    top: -18px;
+    width: 20px;
+    object-fit: none;
+    object-position: -333px -495px;
+    height: 20px;}
+  .border-menu-fixo .img-right {
+        right: -33px;
+    top: -18px;
+    object-fit: none;
+      object-position: -385px -495px;
+    width: 20px;
+    height: 20px;
+  }
+
+
+.solicite-orcamento {
+  height: auto;
+  background: url(../../images/back-forms.png) no-repeat;
+  padding: 30px;
+  width: 370px;
+  margin-left: 145px;
+  margin-top: -90px;
+  float: left; }
+  .solicite-orcamento .box-branco {
+    width: 310px;
+    background: #fff;
+    padding: 38px 42px; }
+  .solicite-orcamento h3 {
+    margin-top: 0;
+    color: #000000;
+    font-size: 26px;
+    font-family: 'ralewaybold'; }
+    .solicite-orcamento h3 span {
+      font-size: 32px; }
+  .solicite-orcamento form label {
+    display: block;
+    font-family: 'ralewayregular';
+    color: #000;
+    font-size: 15px;
+    margin: 15px 0 8px; }
+  .solicite-orcamento form input, .solicite-orcamento form select, .solicite-orcamento form textarea {
+    display: block;
+    width: 100%;
+    background: #f0f0f0;
+    border: 1px solid #d1d3d4;
+    height: 34px; }
+  .solicite-orcamento form textarea {
+    height: 78px;
+    max-height: 78px;
+    min-height: 78px; }
+  .solicite-orcamento form .bt-enviar {
+    margin: 35px 0 0;
+    background: #c4161c;
+    font-family: 'ralewaybold';
+    color: #fff; }
+
+.alguma-duvida {
+  height: auto;
+  background: url(../../images/back-forms.png) no-repeat;
+  padding: 30px;
+  width: 370px;
+  margin-left: 76px;
+  margin-top: 67px;
+  float: left; }
+  .alguma-duvida .box-branco {
+    width: 310px;
+    background: #fff;
+    padding: 30px;
+    height: 487px;
+    float: left; }
+  .alguma-duvida h3 {
+    margin-top: 0;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    float: left;
+    width: 100%; }
+    .alguma-duvida h3 span {
+      font-size: 24px;
+      display: block; }
+  .alguma-duvida img {
+    object-fit: none;
+    object-position: -8px -14px;
+    width: 73px;
+    height: 73px;
+    float: left;
+    margin-top: 5px; }
+  .alguma-duvida img.relogio {
+    object-position: -208px -14px; }
+  .alguma-duvida img.envelope {
+    object-position: -307px -14px; }
+  .alguma-duvida p {
+    float: left;
+    font-family: 'ralewaybold';
+    font-size: 24px;
+    color: #a7a9ac;
+    width: 65%;
+    margin-left: 10px; }
+  .alguma-duvida p.texto-horario {
+    font-size: 20px;
+    margin-top: 9px; }
+  .alguma-duvida p.texto-email {
+    font-size: 13px;
+    margin-top: 27px;
+    margin-left: 4px; }
+  .alguma-duvida .box-duvidas {
+    margin-bottom: 20px;
+    float: left; }
+
+.mapear {
+  position: absolute;
+  width: 171px;
+  height: 36px;
+  top: 304px;
+  left: 27px;
+  z-index: 1200;
+  transition: all ease 0.2s; }
+
+.box-duvidas a {
+  color: #a7a9ac; }
+
+.solucoes-infinito {
+  background: url(../../images/background1.jpg) bottom center no-repeat;
+  background-size: 100%;
+  margin-top: 80px;
+  height: 754px; }
+  .solucoes-infinito .textos-solucoes {
+    width: 70%;
+    float: left; }
+  .solucoes-infinito h1 {
+    color: #000000;
+    font-family: 'ralewaybold';
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 60px; }
+  .solucoes-infinito p {
+    color: #000000;
+    font-size: 22px;
+    width: 60%; }
+  .solucoes-infinito img {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 76px; }
+
+.bloco-servicos {
+  margin-top: 0;
+  padding: 0; }
+  .bloco-servicos .projetos {
+    background: url(../../images/cat-projetos.jpg) top center no-repeat; }
+  .bloco-servicos .redes {
+    background: url(../../images/cat-redes.jpg) top center no-repeat; }
+  .bloco-servicos .optica {
+    background: url(../../images/cat-fibra.jpg) top center no-repeat; }
+  .bloco-servicos .seguranca {
+    background: url(../../images/cat-seguranca.jpg) top center no-repeat; }
+  .bloco-servicos .cabeamento-home {
+    background: url(../../images/cat-estruturado.jpg) top center no-repeat; }
+  .bloco-servicos .eletrica {
+    background: url(../../images/cat-eletrica.jpg) top center no-repeat; }
+  .bloco-servicos .box {
+    width: 100%;
+    padding: 3%;
+    height: 100%;
+    position: relative;
+    /* width: 33.33%;
+     float: left;
+     padding: 2%; */ }
+    .bloco-servicos .box .elemento {
+      height: 100%;
+      width: 100%;
+      background: red; }
+    .bloco-servicos .box h2 {
+      color: #f0f0f0;
+      font-size: 40px;
+      font-family: 'ralewaybold';
+      width: 100%;
+      height: 70px;
+      margin-top: 10%;
+      text-align: left; }
+    .bloco-servicos .box p {
+      color: #f0f0f0;
+      font-size: 16px;
+      margin: 15% 0;
+      height: 70px;
+      width: 80%;
+      text-align: left; }
+    .bloco-servicos .box a.saiba {
+      background: #c4161c;
+      color: #fff;
+      width: 50%;
+      height: 36px;
+      padding: 8px 20px;
+      float: left;
+      font-size: 18px;
+      font-family: 'ralewaybold';
+      text-align: center;
+      margin-bottom: 25%; }
+
+/* Image zoom on hover + Overlay colour */
+.parent {
+  width: 33.33%;
+  margin: 0;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  display: inline-block;
+  cursor: pointer; }
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: -7%; }
+
+.parent:hover .child, .parent:focus .child {
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.parent:hover .child:before, .parent:focus .child:before {
+  display: block; }
+
+.parent:hover a, .parent:focus a {
+  display: block; }
+
+.child:before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.depoimentos {
+  background: url(../../images/background2.jpg) bottom center no-repeat #c4161c;
+  background-size: 100%;
+  height: 1030px; }
+  .depoimentos h2 {
+    margin-top: 25%;
+    color: #f0f0f0;
+    font-family: 'ralewaybold';
+    font-size: 60px;
+    text-transform: uppercase;
+    width: 100%; }
+  .depoimentos p {
+    font-size: 24px;
+    margin-top: 8%;
+    width: 100%;
+    color: #fff; }
+    .depoimentos p span {
+      font-family: 'ralewaybold'; }
+  .depoimentos .back-clientes {
+    width: 461px;
+    height: 481px;
+    background: url(../../images/back-carrossel-clientes.png) no-repeat;
+    margin-left: 19%;
+    margin-top: 26.5%;
+    padding-top: 17%;}
+  .depoimentos .clientes {
+    margin-left: 19%;
+    width: 259px; }
+    .depoimentos .clientes .slick-prev {
+width: 23px;
+    height: 58px;
+    background: url(../../images/sprytes.jpg) no-repeat;
+    background-position: -390px -557px;
+    text-indent: -9999px;
+    border: 0;
+    position: absolute;
+    top: 36px;
+    z-index: 999;
+    left: -32px;}
+    .clientes .slick-slide img{
+    object-fit: none;
+    width: 271px;
+    margin-left: 0;
+    height: 101px;
+    padding-top: 0;
+    margin-top: 21px;
+    }
+.depoimentos .clientes .slick-next {
+    width: 23px;
+    height: 58px;
+    background: url(../../images/sprytes.jpg) no-repeat;
+    background-position: -333px -557px;
+    text-indent: -9999px;
+    border: 0;
+    position: absolute;
+    top: 210px;
+    z-index: 999;
+    right: -218px;
+}
+  .depoimentos .depointe-infinito {
+    margin-top: 23%; }
+    .depoimentos .depointe-infinito .slick-prev {
+      width: 18px;
+      height: 34px;
+      background: url(../../images/sprytes.png) no-repeat;
+       background-position:-77px -206px;
+      text-indent: -9999px;
+      border: 0;
+      position: absolute;
+      top: 35px;
+      z-index: 999;
+      left: 13px; }
+    .depoimentos .depointe-infinito .slick-next {
+      width: 18px;
+      height: 34px;
+      background: url(../../images/sprytes.png) no-repeat;
+        background-position:-31px -206px;
+      text-indent: -9999px;
+      border: 0;
+      position: absolute;
+      top: 210px;
+      z-index: 999;
+      right: 352px; }
+  .depoimentos .depointe {
+    height: 361px; }
+    .depoimentos .depointe h5 {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 3px; }
+    .depoimentos .depointe .pessoa {
+      width: 156px;
+      float: left;
+      text-align: center;
+      margin-right: 36px; }
+      .depoimentos .depointe .pessoa img {
+        /*margin-left: 23px; */
+            /* margin-left: 23px; */
+    object-fit: none;
+    width: 110px;
+    height: 110px;
+      }
+      .depoimentos .depointe .pessoa p {
+        font-size: 12px;
+        color: #efefef;
+        margin-top: 5px;
+        width: 98%;
+        margin-left: 1%; }
+  .depoimentos .box-texto {
+    width: 344px;
+    height: auto;
+    background: #efefef;
+    margin-top: 0;
+    padding: 20px;
+    float: left; }
+    .depoimentos .box-texto p {
+      color: #000000;
+      font-size: 18px;
+      margin-top: 0;
+      text-align: justify; }
+    .depoimentos .box-texto .pedaco {
+top: 0;
+    left: 104px;
+    position: absolute;
+    object-fit: none;
+    width: 88px;
+    object-position: 0px -134px;
+    z-index: 1200;
+    height: 54px; }
+
+
+.entre-contato {
+  background: url(../../images/predios.png) #f0f0f0 bottom center no-repeat;
+  padding-top: 5%; }
+  .entre-contato h3 {
+    font-family: 'ralewaybold';
+    font-size: 60px;
+    color: #000;
+    width: 30%; }
+  .entre-contato p {
+    color: #000;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%; }
+    .entre-contato p span {
+      font-family: 'ralewaybold'; }
+  .entre-contato .box-contato {
+    float: left;
+    padding: 0 3px;
+    margin: 0; }
+    .entre-contato .box-contato h5 {
+      font-family: 'ralewaybold';
+      font-size: 16px;
+      text-transform: uppercase; }
+      .entre-contato .box-contato h5 span {
+        font-size: 23px;
+        display: block; }
+    .entre-contato .box-contato img {
+      object-fit: none;
+      object-position: -8px 0;
+      width: 55px;
+      height: 55px;
+      float: left;
+      margin-top: 5px;
+      margin-right: 10px; }
+    .entre-contato .box-contato p {
+      color: #a7a9ac;
+      width: 60%;
+      float: left; }
+  .entre-contato .home-contato p {
+    font-size: 20px;
+    font-family: 'ralewaybold'; }
+  .entre-contato .home-email img {
+    object-position: -76px 0; }
+  .entre-contato .home-email p {
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: 'ralewaybold'; }
+  .entre-contato .home-suporte img {
+    object-position: -145px 0; }
+  .entre-contato .home-suporte p {
+    font-size: 14px; }
+  .entre-contato .home-horario img {
+    object-position: -211px 0; }
+  .entre-contato .home-horario p {
+    font-size: 19px; }
+    .entre-contato .home-horario p span {
+      font-family: 'ralewaybold'; }
+  .entre-contato .form-contato {
+    margin-top: 5%; }
+    .entre-contato .form-contato input, .entre-contato .form-contato select, .entre-contato .form-contato textarea {
+      display: block;
+      width: 100%;
+      height: 46px;
+      border: 1px solid #d1d3d4;
+      padding-left: 10px; }
+    .entre-contato .form-contato option {
+      color: #666;
+      font-size: 14px; }
+    .entre-contato .form-contato .campo {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+      padding-right: 30px; }
+    .entre-contato .form-contato .sem-margem {
+      padding-right: 0px; }
+    .entre-contato .form-contato label {
+      color: #000000;
+      font-size: 16px;
+      font-family: 'ralewayregular';
+      display: block; }
+    .entre-contato .form-contato textarea {
+      height: 196px;
+      min-height: 196px;
+      max-height: 196px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%; }
+    .entre-contato .form-contato input.bt-enviar {
+      margin: 30px auto;
+      width: 370px;
+      height: 50px;
+      background: #c4161c;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: 'ralewaybold'; }
+
+.endereco {
+  width: 100%;
+  height: 50px;
+  border-bottom: 11px solid #9d1216;
+  background: #c4161c;
+  text-align: center;
+  padding-top: 7px; }
+  .endereco p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'ralewayregular'; }
+
+.footer {
+  width: 100%;
+  background: #000;
+  height: 48px;
+  padding-top: 12px; }
+  .footer .sociais {
+    float: left;
+    margin-top: 3px;
+    font-size: 15px; }
+    .footer .sociais .fa {
+      color: #6d6e71;
+      margin-right: 10px; }
+      .footer .sociais .fa:hover {
+        color: #fff; }
+  .footer p {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 0 25%;
+    font-family: 'ralewaybold'; }
+  .footer .assinatura {
+    float: right;
+    color: #fff; }
+    .footer .assinatura a {
+      margin-top: 5px; }
+    .footer .assinatura img {
+      margin-left: 5px; }
+
+.servicos {
+  background: url(../../images/contorno-preto.png) no-repeat;
+  width: 430px;
+  height: auto;
+  margin-left: 10%;
+  padding: 27px;
+  position: absolute;
+  bottom: 0; }
+  .servicos ul, .servicos .conteudo-servico {
+    background: #f1f2f2;
+    width: 373px;
+    padding: 25px; }
+    .servicos ul h3, .servicos .conteudo-servico h3 {
+      color: #000000;
+      font-size: 35px;
+      font-family: 'ralewaybold';
+      text-transform: uppercase; }
+    .servicos ul p, .servicos .conteudo-servico p {
+      color: #000;
+      font-size: 20px;
+      text-align: justify; }
+    .servicos ul li, .servicos .conteudo-servico li {
+      font-size: 24px;
+      color: #c4161c;
+      margin-left: 30px; }
+      .servicos ul li span, .servicos .conteudo-servico li span {
+        color: #000; }
+
+.vermelho {
+  background: url(../../images/back-forms.png) no-repeat; }
+
+.servicos2 {
+  margin-top: -321px;
+  margin-left: 53%; }
+
+.imagem-banner {
+  position: absolute;
+  top: -792px;
+  left: 600px; }
+
+.inst h2 {
+  font-size: 60px;
+  color: #0a0a0a;
+  font-family: 'ralewaybold'; }
+.inst p {
+  font-size: 20px;
+  width: 70%;
+  text-align: justify; }
+
+.missao {
+  padding-left: 6%; }
+  .missao p {
+    width: 100%;
+    text-align: justify; }
+
+.contador {
+  background-size: 100%;
+  height: 298px;
+  width: 100%;
+  margin-top: 90px; }
+
+.parallax-projetos, .parallax-redes, .parallax-contador, .parallax-cabeamento, .parallax-cftv, .parallax-fibra {
+  min-height: 400px;
+  background: transparent; }
+
+.contador-individual {
+  float: left;
+  text-align: center;
+  width: 25%;
+  margin-top: 5.5%; }
+  .contador-individual h5 {
+    color: #fff;
+    font-size: 110px;
+    font-family: 'ralewaybold'; }
+  .contador-individual p {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff; }
+
+.fundadores {
+  background: url(../../images/corte1.jpg) 50% 100% no-repeat #f1f2f2;
+  padding-top: 8%;
+  padding-bottom: 20%; }
+  .fundadores h2 {
+    color: #0a0a0a;
+    font-family: 'ralewaybold';
+    font-size: 60px;
+    text-transform: uppercase; }
+  .fundadores p {
+    font-size: 24px;
+    width: 85%;
+    margin-top: 20px;
+    text-align: justify; }
+    .fundadores p span {
+      font-family: 'ralewaybold'; }
+  .fundadores .foto-fundador {
+    margin-top: 13%;
+    position: absolute;
+    right: 10%; }
+
+.valores {
+  margin-top: 20px; }
+
+.segundo {
+  padding-left: 6%; }
+
+.cabeamento {
+  height: 550px; }
+  .cabeamento .container {
+    padding: 0; }
+  .cabeamento h3 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'ralewaybold';
+    height: 90px;
+    margin-top: 15%;
+    margin-bottom: 10%; }
+  .cabeamento p {
+    color: #fff;
+    font-size: 20px;
+    text-align: justify; }
+  .cabeamento li {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 30px; }
+
+.cptv {
+  height: 550px;
+  padding-top: 3%; }
+  .cptv .container {
+    padding: 0; }
+  .cptv h3 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'ralewaybold';
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 5%; }
+  .cptv p {
+    color: #fff;
+    font-size: 20px; }
+  .cptv li {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 30px; }
+
+.gerenciamento {
+  background: url(../../images/corte2.jpg) 50% 100% no-repeat #fff;
+  padding-top: 8%;
+  padding-bottom: 20%; }
+  .gerenciamento .container {
+    padding: 0; }
+  .gerenciamento h2 {
+    color: #0a0a0a;
+    font-family: 'ralewaybold';
+    font-size: 40px;
+    text-transform: uppercase; }
+  .gerenciamento p {
+    font-size: 20px;
+    width: 95%;
+    margin-top: 20px; }
+    .gerenciamento p span {
+      font-family: 'ralewaybold'; }
+  .gerenciamento .cabeamento-texto {
+    padding: 0; }
+  .gerenciamento li {
+    margin-left: 20px;
+    font-size: 20px;
+    width: 85%; }
+  .gerenciamento img {
+    margin-top: 0;
+    position: absolute;
+    right: 0; }
+
+.back-branco {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  padding-bottom: 90px; }
+
+.cftv {
+  background: url(../../images/corte2.jpg) 50% 100% no-repeat #fff;
+  padding-top: 8%;
+  padding-bottom: 20%; }
+  .cftv img {
+    margin-top: 0;
+    position: absolute;
+    right: -90px; }
+  .cftv .container {
+    padding: 0; }
+  .cftv h2 {
+    color: #0a0a0a;
+    font-family: 'ralewaybold';
+    font-size: 40px;
+    text-transform: uppercase; }
+  .cftv li {
+    margin-left: 20px;
+    font-size: 20px;
+    width: 85%; }
+  .cftv p {
+    font-size: 20px;
+    width: 95%;
+    margin-top: 20px; }
+    .cftv p span {
+      font-family: 'ralewaybold'; }
+
+.fibra-optica {
+  background: url(../../images/corte2.jpg) 50% 100% no-repeat #fff;
+  padding-top: 8%;
+  padding-bottom: 20%; }
+  .fibra-optica img {
+    margin-top: 0;
+    position: absolute;
+    right: -90px; }
+  .fibra-optica .container {
+    padding: 0; }
+  .fibra-optica h2 {
+    color: #0a0a0a;
+    font-family: 'ralewaybold';
+    font-size: 40px;
+    text-transform: uppercase; }
+  .fibra-optica li {
+    margin-left: 20px;
+    font-size: 20px;
+    width: 85%; }
+  .fibra-optica p {
+    font-size: 20px;
+    width: 95%;
+    margin-top: 20px; }
+    .fibra-optica p span {
+      font-family: 'ralewaybold'; }
+
+.box-produto {
+  text-align: center; }
+  .box-produto p {
+    color: #6d6e71;
+    width: 86%;
+    margin: 0 7%;
+    font-size: 18px; }
+    .box-produto p span {
+      font-family: 'ralewaybold'; }
+
+.imagem {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 30px; }
+  .imagem h2 {
+    color: #f0f0f0;
+    font-size: 24px;
+    font-family: 'ralewaybold';
+    text-align: center;
+    padding-top: 200px;
+    width: 50%;
+    margin: 0 25%; }
+
+.back-produtos {
+  background: url(../../images/corte2.jpg) 50% 100% no-repeat #fff; }
+
+.controle {
+  background: url(../../images/produtos-controle.jpg) top center no-repeat; }
+
+.servidores {
+  background: url(../../images/produtos-servidores.jpg) top center no-repeat; }
+
+.sistemas {
+  background: url(../../images/produtos-sistemas.jpg) top center no-repeat; }
+
+.conectividade {
+  background: url(../../images/produtos-conectividade.jpg) top center no-repeat; }
+
+.ativos {
+  background: url(../../images/produtos-ativos.jpg) top center no-repeat; }
+
+.infraestrutura {
+  background: url(../../images/produtos-infraestrutura.jpg) top center no-repeat; }
+
+.bloco-produtos .menu--valentine .menu__link {
+  width: 300px;
+  height: 300px; }
+
+.bloco-produtos .menu--valentine .menu__item--current .menu__link {
+  width: 280px;
+  height: 282px;
+  padding: 0; }
+
+.bloco-produtos .parent {
+  width: 300px;
+  height: 300px; }
+
+.bloco-produtos p {
+  color: #6d6e71;
+  width: 78%;
+  margin: 0 11%;
+  font-size: 18px;
+  margin-top: 25px;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+  margin-bottom: 30px; }
+  .bloco-produtos p span {
+    font-family: 'ralewaybold'; }
+
+.bloco-produtos .bloco {
+  width: 300px;
+  height: auto;
+  position: relative;
+  z-index: 999;
+  margin: 0 4%; }
+
+.bloco-produtos .bloco h2 {
+  color: #f0f0f0;
+  font-size: 24px;
+  font-family: 'ralewaybold';
+  text-align: center;
+  padding-top: 180px;
+  width: auto;
+  margin: 0; }
+
+.bloco-produtos .bloco img {
+    margin: 0;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    object-fit: none;
+    width: 77px;
+    height: 81px;
+    }
+
+.bloco-produtos .menu--valentine .menu__item {
+  width: 280px;
+  height: 282px; }
+
+.bloco-produtos {
+  margin-top: -427px; }
+
+.box-whatsapp {
+  width: 108px;
+  height: 148px;
+  background: #000;
+  position: fixed;
+  top: 40%;
+  right: 0;
+  border-radius: 50px 0 0 0;
+  z-index: 1200;
+  opacity: 0.95; }
+  .box-whatsapp .fa-times {
+    float: right;
+    color: #c4161c;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer; }
+  .box-whatsapp .fa-whatsapp {
+    color: #fff;
+    font-size: 90px;
+    margin-top: -5px;
+    margin-left: 15px; }
+  .box-whatsapp p {
+    color: #c4161c;
+    margin-left: 10px;
+    float: left;
+    font-size: 12px; }
+    .box-whatsapp p span {
+      display: block;
+      font-size: 16px;
+      font-family: 'ralewaybold'; }
+
+.link-google {
+  position: absolute;
+  width: 178px;
+  height: 61px;
+  background: #fff;
+  top: -471px;
+  left: 42%;
+  z-index: 1000; }
+.box-pessoa{
+    background: #fff;
+    border-radius: 50%;
+    width: 67%;
+    margin-left: 26px;
+}
+@media (max-width: 480px) {
+  .border-menu-fixo, .box-whatsapp,
+  .depoimentos .box-texto .pedaco {
+    display: none; }
+
+  .bloco-produtos {
+    margin-top: -80px; }
+
+  .solicite-orcamento {
+    margin-left: 0;
+    margin-top: 200px; }
+
+  .solucoes-infinito h1 {
+    font-size: 40px; }
+
+  .entre-contato .form-contato input.bt-enviar {
+    width: 100%; }
+
+  .banner {
+    height: 370px;
+    background-repeat: no-repeat;
+    margin-top: 108px;
+    background-size: 100%;
+    padding: 0; }
+
+  .banner1 {
+    background: url(../../images/banner-cabeamento-estruturado-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .banner2 {
+    background: url(../../images/banner-fibra-optica-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .banner3 {
+    background: url(../../images/banner-cftv-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .menu-fixed {
+    height: 70px;
+    border-bottom: 2px solid #fff; }
+
+  .slick-list, .slick-track {
+    height: 540px; }
+
+  .banner h2 {
+    font-size: 36px;
+    width: 100%;
+    margin-top: 7%; }
+
+  .banner p {
+    font-size: 14px;
+    width: 100%;
+    margin: 25px 0; }
+
+  .banner a {
+    background: #c4161c;
+    color: #fff;
+    width: 130px;
+    height: 31px;
+    padding: 5px 20px;
+    float: left;
+    font-size: 14px;
+    font-family: 'ralewaybold';
+    text-align: center; }
+
+  .slick-next {
+    display: block;
+    width: 38px;
+    height: 38px;
+    text-indent: -9999px;
+    border: 0;
+    position: absolute;
+    top: 330px;
+    z-index: 999;
+    margin: 0;
+    left: 85%; }
+
+  .slick-prev {
+    display: block;
+    width: 38px;
+    height: 38px;
+    text-indent: -9999px;
+    border: 0;
+    position: absolute;
+    top: 330px;
+    z-index: 999;
+    margin: 0 auto;
+    left: 70%; }
+
+  .solicite-orcamento {
+    width: 100%;
+    margin-top: -120px;
+    padding: 30px 20px; }
+
+  .solicite-orcamento .box-branco {
+    width: 100%; }
+
+  .alguma-duvida {
+    margin-left: 0;
+    width: 100%; }
+
+  .alguma-duvida .box-branco {
+    width: 100%;
+    height: auto; }
+
+  .alguma-duvida h3 span {
+    font-size: 22px; }
+
+  .alguma-duvida p {
+    font-size: 20px;
+    width: 60%;
+    margin-top: 15px; }
+
+  .alguma-duvida p.texto-email {
+    font-size: 11px;
+    margin-left: 7px; }
+
+  .solucoes-infinito .textos-solucoes {
+    width: 100%; }
+
+  .solucoes-infinito h1 {
+    font-size: 24px;
+    margin-bottom: 20px; }
+
+  .solucoes-infinito {
+    margin-top: 20px; }
+
+  .solucoes-infinito p {
+    font-size: 16px;
+    width: 100%; }
+
+  .solucoes-infinito {
+    height: auto;
+    padding-bottom: 202px; }
+
+  .solucoes-infinito img {
+    width: 90%;
+    bottom: -202px;
+    top: inherit; }
+
+  .bloco-servicos .slick-prev {
+    top: 78%; }
+
+  .bloco-servicos .slick-next {
+    top: 78%;
+    left: 83%; }
+
+  .bloco-servicos .slick-list, .bloco-servicos .slick-track {
+    height: auto; }
+
+  .depoimentos h2 {
+    margin-top: 20%;
+    color: #f0f0f0;
+    font-family: 'ralewaybold';
+    font-size: 27px;
+    text-transform: uppercase;
+    width: 86%; }
+
+  .depoimentos p {
+    font-size: 16px; }
+
+  .depointe-infinito .slick-list {
+    width: 100%; }
+
+  .depoimentos .depointe .pessoa {
+    position: absolute; }
+
+  .depoimentos .depointe .pessoa img {
+margin-left: 13px;
+    width: 82%;}
+
+  .depoimentos .depointe h5 {
+    font-size: 22px; }
+
+  .depoimentos .depointe-infinito {
+    margin-top: 8%;
+    height: 670px; }
+
+  .depoimentos .depointe-infinito .slick-prev {
+    width: 48px;
+    height: 45px;
+    text-indent: -9999px;
+    border: 0;
+    position: absolute;
+    top: 61px;
+    z-index: 999;
+    left: 70px; }
+
+  .depoimentos .depointe-infinito .slick-next {
+    width: 18px;
+    height: 34px;
+    text-indent: -9999px;
+    border: 0;
+    position: absolute;
+    top: 61px;
+    z-index: 999;
+    right: 0;
+    left: 74%; }
+
+  .depoimentos .depointe .pessoa {
+    margin-right: 0;
+    width: 200px;
+    margin-left: 60px; }
+
+  .depoimentos .depointe .pessoa p {
+    font-size: 16px; }
+
+  .depoimentos .box-texto {
+    margin-top: 275px;
+    font-size: 10px;
+    height: auto; }
+
+  .depoimentos .slick-list, .depoimentos .slick-track {
+    height: 600px; }
+
+  .depoimentos .box-texto p {
+    font-size: 16px;
+    width: 90%; }
+
+  .depoimentos .depointe {
+    width: 100%;
+    height: 0; }
+
+  .depoimentos .back-clientes {
+    width: 98%;
+    height: 481px;
+    background: url(../../images/back-carrossel-clientes.png) no-repeat;
+    margin-left: 0;
+    background-size: 100%;
+    margin-top: 638px;
+    padding-top: 20%;
+    position: absolute; }
+
+  .entre-contato {
+    margin-top: 69%; }
+
+.depoimentos .clientes .slick-prev {
+width: 23px;
+    height: 58px;
+
+    text-indent: -9999px;
+    border: 0;
+    position: absolute;
+    top: 21px;
+    z-index: 999;
+    left: -28px;
+}
+
+  .clientes .slick-list, .clientes .slick-track {
+    width: 87%; }
+
+  .depoimentos .clientes {
+    margin-left: 17%;
+    width: 225px; }
+
+  .clientes .slick-slide img {
+    display: block;
+    width: 76%;
+    margin-top: 0;}
+
+  .depoimentos .clientes .slick-next {
+    top: 25px;
+    background-size: 82%;
+    left: 90%;}
+
+  .entre-contato h3 {
+    font-family: 'ralewaybold';
+    font-size: 45px;
+    color: #000;
+    width: 100%; }
+
+  .entre-contato p {
+    font-size: 16px;
+    color: #000000; }
+
+  .entre-contato .box-contato h5 {
+    font-family: 'ralewaybold';
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000; }
+
+  .entre-contato .box-contato h5 span {
+    font-size: 28px;
+    display: block; }
+
+  .entre-contato .box-contato {
+    margin-bottom: 20px; }
+    .box-pessoa {
+    background: #fff;
+    border-radius: 50%;
+    width: 65%;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+  .entre-contato .home-contato p {
+    font-size: 24px;
+    font-family: 'ralewaybold';
+    line-height: 20px; }
+
+  .entre-contato .box-contato img {
+    margin-top: 8px; }
+
+  .entre-contato .home-email p {
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: 'ralewaybold';
+    margin-top: 24px; }
+
+  .entre-contato .box-contato p {
+    width: 72%; }
+
+  .entre-contato .home-suporte p {
+    font-size: 16px; }
+
+  .entre-contato .form-contato .campo {
+    padding-right: 0; }
+
+  .endereco {
+    height: 85px; }
+
+  .footer {
+    height: auto; }
+
+  .footer .sociais {
+    width: 65%;
+    float: none;
+    margin: 0 auto 10px; }
+
+  .footer .sociais .fa {
+    margin: 0 4%;
+    font-size: 28px; }
+
+  .footer p {
+    margin: 0 5%;
+    font-family: 'ralewaybold';
+    text-align: center;
+    width: 90%;
+    margin-bottom: 5%; }
+
+  .footer .assinatura {
+    color: #fff;
+    margin: 0 auto;
+    float: none;
+    width: 75%;
+    text-align: center;
+    display: block; }
+
+  .menu-completo .menu {
+    width: 88%;
+    background: #000;
+    height: 400px;
+    float: left;
+    margin-left: -15px;
+    padding-top: 80px;
+    border-right: 4px solid #e81c24;
+    z-index: 0;
+    position: absolute;
+    top: -860px;
+    transition: all ease 0.2s;
+    z-index: 1; }
+
+  .menu-completo {
+    position: relative; }
+
+  .menu-completo .contatos-fixo {
+    position: absolute;
+    top: 238px;
+    left: 0; }
+
+  .menu-links li {
+    float: left;
+    list-style: none;
+    height: 43px;
+    width: 82%;
+    border-bottom: 1px solid #444444;
+    margin: 0 8% 0%;
+    padding: 1% 0; }
+
+  .link-logo {
+    position: absolute;
+    left: 0;
+    display: none; }
+
+  .contatos {
+    width: 62%; }
+
+  .menu-completo .contatos-fixo {
+    background: none;
+    border-top: 0; }
+
+  .contatos .sociais {
+    display: none; }
+
+  .fa-whatsapp {
+    display: none; }
+
+  .contatos .telefones-topo p {
+    font-size: 16px;
+    color: #6d6e71; }
+
+  body .menu-fixo a.menu-servicos span {
+    position: absolute;
+    right: -214%;
+    color: #e81c24;
+    font-size: 22px;
+    margin-top: -3px; }
+
+  .menu-links .drop {
+    width: 102%;
+    background: #000;
+    opacity: 0.8;
+    border: 2px solid #c4161c;
+    margin-top: 50px;
+    margin-left: -20px;
+    position: absolute;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    top: -50px;
+    height: auto; }
+
+  body .menu-fixo .drop .drop-seta {
+    display: none; }
+
+  .menu-links .drop {
+    background: #c4161c;
+    z-index: 1002; }
+
+  .menu-links .drop a {
+    border: 0; }
+
+  .menu-links .drop li {
+    float: left;
+    border-bottom: 1px solid #ee595f; }
+
+  .menu-links .drop li a {
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'ralewayregular';
+    width: 102%;
+    padding-bottom: 0; }
+
+  .menu-links .drop {
+    border-right: 4px solid #000;
+    left: -300px; }
+
+  .menu-links .drop li {
+    padding: 2% 0; }
+
+  .menu-links .drop .drop-voltar {
+    border-right: 4px solid #000;
+    height: 70px;
+    background: #191919;
+    float: left;
+    margin-left: -2px;
+    margin-top: -2px;
+    width: 102%;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family: 'ralewaybold';
+    border-bottom: 4px solid #000; }
+    .menu-links .drop .drop-voltar span {
+      position: absolute;
+      right: 10px;
+      color: #e81c24;
+      top: 19px;
+      font-size: 23px; }
+
+  .menu-links .drop li.drop-servicos {
+    background: #5d0b0e;
+    color: #fff;
+    text-align: left;
+    height: 44px;
+    width: 101%;
+    margin-left: -2px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 17px;
+    border: 0; }
+
+  .menu-links .drop li.menu-rede {
+    border: 0; }
+
+  #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+    width: 37px;
+    height: 30px;
+    position: relative;
+    margin: 12px 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    float: right;
+    margin-right: 0px; }
+
+  #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #e81c24;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out; }
+
+  #nav-icon1 span:nth-child(1) {
+    top: 10px; }
+
+  #nav-icon1 span:nth-child(2) {
+    top: 22px; }
+
+  #nav-icon1 span:nth-child(3) {
+    top: 34px; }
+
+  #nav-icon1.open span:nth-child(1) {
+    top: 18px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg); }
+
+  #nav-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px; }
+
+  #nav-icon1.open span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg); }
+
+  .link-logo-celular {
+    position: absolute;
+    left: 0px;
+    display: block;
+    top: 14px; }
+
+  .menu .telefones-topo {
+    float: left;
+    position: absolute;
+    z-index: 1000;
+    top: 290px;
+    transition: all ease 0.2s;
+    left: 21px; }
+
+  .menu-completo .contatos .entrada-por-cima, .menu-completo .entrada-por-cima {
+    top: 0;
+    transition: all ease 0.2s; }
+
+  .menu-links .entrada-pela-esquerda {
+    left: 20px;
+    transition: all ease 0.2s; }
+
+  .contatos .telefones-topo {
+    display: none; }
+
+  .menu .telefones-topo p {
+    float: left;
+    font-size: 16px;
+    color: #6d6e71;
+    margin-right: 10px; }
+
+  .menu .telefones-topo p span {
+    color: #fff;
+    font-family: 'ralewaybold'; }
+
+  .trava {
+    overflow: hidden; }
+
+  .endereco p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'ralewayregular';
+    margin-top: 5px; }
+
+  .bloco-servicos .box a.saiba {
+    font-size: 17px; }
+
+  .bloco-servicos .box h2 {
+    font-size: 38px; }
+
+  .imagem-banner {
+    display: none; }
+
+  .banner-quem-somos {
+    background: url("../../images/banner-quem-somos-celular.jpg") top center repeat;
+    background-size: 100%; }
+
+  .banner-interna {
+    height: 430px;
+    margin-bottom: 0; }
+
+  .banner-interna h1 {
+    margin-top: 10%;
+    font-size: 40px; }
+
+  .banner-interna p {
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    margin: 25px 0 60px; }
+
+  .servicos {
+    background: url(../../images/contorno-preto.png) no-repeat;
+    width: 92%;
+    height: auto;
+    float: left;
+    margin-top: -80px;
+    margin-left: 0;
+    padding: 17px;
+    background-size: 100%;
+    bottom: 0;
+    position: relative; }
+
+  .servicos ul, .servicos .conteudo-servico {
+    background: #f1f2f2;
+    width: 100%;
+    padding: 15px; }
+
+  .servicos2 {
+    background: none;
+    margin-top: -56px;
+    padding-top: 0; }
+
+  .servicos2 ul {
+    padding-top: 0; }
+
+  .servicos ul li, .servicos .conteudo-servico li {
+    font-size: 20px;
+    margin-left: 20px; }
+
+  .inst p {
+    font-size: 18px;
+    width: 100%;
+    color: #000; }
+
+  .inst h2 {
+    font-size: 42px; }
+
+  .inst {
+    margin-top: 20px;
+    float: left; }
+
+  .contador {
+    margin-top: 60px; }
+
+  .contador-individual {
+    margin-top: 3%; }
+
+  .contador-individual h5 {
+    font-size: 120px; }
+
+  .fundadores .container {
+    padding: 0; }
+
+  .fundadores h2 {
+    font-size: 42px; }
+
+  .fundadores p {
+    font-size: 22px;
+    width: 100%;
+    margin-top: 20px;
+    color: #0a0a0a; }
+
+  .fundadores .foto-fundador {
+    margin-top: 10%;
+    position: relative;
+    right: 0;
+    width: 100%; }
+
+  .entre-contato {
+    margin-top: 0; }
+
+  .depoimentos {
+    margin-bottom: 65%; }
+
+  .servicos ul h3, .servicos .conteudo-servico h3 {
+    font-size: 32px;
+    margin-top: 10px; }
+
+  .servicos ul p, .servicos .conteudo-servico p {
+    color: #000;
+    font-size: 18px;
+    padding-bottom: 10px; }
+
+  .banner-interna-cabeamento {
+    background: url(../../images/banner-cabeamento-estruturado-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .cabeamento {
+    height: 955px; }
+
+  .back-branco {
+    padding-bottom: 40px; }
+
+  .cabeamento h3 {
+    font-size: 38px;
+    height: auto; }
+
+  .cabeamento p {
+    color: #fff;
+    font-size: 18px;
+    width: 100%; }
+
+  .gerenciamento h2 {
+    font-size: 32px; }
+
+  .gerenciamento p {
+    width: 100%;
+    margin-bottom: 40px; }
+
+  .gerenciamento img {
+    margin-top: 27px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    top: 0; }
+
+  .banner-interna-cftv {
+    background: url(../../images/banner-cftv-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .cftv img {
+    margin-top: 27px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    top: 0; }
+
+  .cptv {
+    height: auto;
+    padding-top: 3%;
+    padding-bottom: 10%; }
+
+  .cftv h2 {
+    font-size: 32px; }
+
+  .cptv h3 {
+    font-size: 32px; }
+
+  .banner-interna-fibra-optica {
+    background: url(../../images/banner-fibra-optica-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .fibra-optica img {
+    position: relative; }
+
+  .parallax-fibra li {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 16px; }
+
+  .fibra-optica h2 {
+    font-size: 32px; }
+
+  .banner-interna-rede-eletrica {
+    background: url(../../images/banner-interna-rede-eletrica-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .banner-interna-produtos {
+    background: url(../../images/banner-interna-produtos-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .menu--ferdinand .menu__item--current .menu__link {
+    color: #fff; }
+
+  .solicite-orcamento .box-branco {
+    padding: 38px 25px; }
+
+  .banner-interna h1 {
+    width: 100%; }
+
+  .banner-interna-gerenciamento-redes {
+    background: url(../../images/banner-interna-gerenciamento-redes-celular.jpg) top center repeat;
+    background-size: 100%; }
+
+  .banner-interna-gerenciamento-projetos {
+    background: url(../../images/banner-interna-gerenciamento-projetos-celular.jpg) top center repeat;
+    background-size: 100%; } }
+
+/*# sourceMappingURL=geral.css.map */

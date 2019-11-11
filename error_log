@@ -1,0 +1,7 @@
+[05-Dec-2017 16:14:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcelercom/public_html/v3/includes/php/validacao_home.php on line 57
+[05-Dec-2017 16:14:45 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcelercom/public_html/v3/includes/php/validacao_home.php on line 57
+[05-Dec-2017 16:20:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcelercom/public_html/v3/includes/php/validacao_home.php on line 61
+[05-Dec-2017 16:20:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/xcelercom/public_html/v3/includes/php/validacao_home.php on line 61
+[05-Dec-2017 16:47:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '=' in /home/xcelercom/public_html/v3/includes/php/validacao_home.php on line 35
+[05-Dec-2017 16:47:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '=' in /home/xcelercom/public_html/v3/includes/php/validacao_home.php on line 35
+[05-Dec-2017 15:23:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/v3tec657/public_html/includes/php/validacao_orcamento.php on line 85

@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "GandhiSans-Bold";
+	src: url("../css/fonts/GandhiSans-Bold.otf");
+}
+@font-face {
+	font-family: "GandhiSans-BoldItalic";
+	src: url("../css/fonts/GandhiSans-BoldItalic.otf");
+}
+@font-face {
+	font-family: "GandhiSans-Italic";
+	src: url("../css/fonts/GandhiSans-Italic.otf");
+}
+@font-face {
+	font-family: "GandhiSans-Regular";
+	src: url("../css/fonts/GandhiSans-Regular.otf");
+}
